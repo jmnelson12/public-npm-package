@@ -1,6 +1,6 @@
 {
   "name": "@jacob.nelson.tapcart.co/public-npm-package",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Testing public npm package",
   "main": "index.js",
   "type": "module",
