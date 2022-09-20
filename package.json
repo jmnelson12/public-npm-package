@@ -1,0 +1,28 @@
+{
+  "name": "@jmnelson12/public-npm-package",
+  "version": "0.0.1",
+  "description": "Testing public npm package",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmnelson12/public-npm-package.git"
+  },
+  "keywords": [],
+  "author": "Jacob Nelson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmnelson12/public-npm-package/issues"
+  },
+  "homepage": "https://github.com/jmnelson12/public-npm-package#readme",
+  "devDependencies": {}
+}
