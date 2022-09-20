@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: 'lts/*'
           registry-url: 'https://registry.npmjs.org'
-      - name: Install dependencies and build 🔧
-        run: yarn install --frozen-lockfile && yarn build
+      - name: Install dependencies 🔧
+        run: yarn install --frozen-lockfile
       - name: Publish package on NPM 📦
         run: npm publish
         env:
